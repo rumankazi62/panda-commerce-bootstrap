@@ -11,7 +11,7 @@
 <body>
   <!-- header start -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container bg-light py-3">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="" width="185px" height="31px">
@@ -22,16 +22,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item fs-5">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#slide">Home</a>
             </li>
             <li class="nav-item fs-5">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item fs-5">
-              <a class="nav-link" href="#">Backpack</a>
+              <a class="nav-link" href="#backpack">Backpack</a>
             </li>
             <li class="nav-item fs-5">
-              <a class="nav-link" href="#">Subscribe</a>
+              <a class="nav-link" href="#subscribe">Subscribe</a>
             </li>
           </ul>
           
@@ -39,7 +39,7 @@
       </div>
     </nav>
     <!-- slider option -->
-    <section class="container mt-5">
+    <section class="container mt-5" id="slide">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -124,7 +124,7 @@
       </div>
     </section>
     <!-- shoes section -->
-    <section class="container mt-5">
+    <section class="container mt-5" id="shoes">
       <h2>Shoes</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -169,7 +169,7 @@
       </div>
     </section>
     <!-- Bags section -->
-    <section class="container my-5">
+    <section class="container my-5" id="backpack">
       <h2>Backpack</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -214,10 +214,20 @@
         </div>
       </div>
     </section>
+    <!-- Subscribe section -->
+    <section id="subscribe" class="container my-5 p-5 d-flex align-items-center justify-content-center rounded-3" style="background-color:#fceae8;height: 300px;">
+      <div class="">
+        <h3>LET'S STAY IN TOUCH</h3>
+      <h6 class="text-secondary">Get updates on sales, specials and more</h6>
+      <input class="w-100 border-0 rounded-2" type="text">
+      <br>
+      <button class="btn btn-danger">Submit</button>
+      </div>
+    </section>
   </main>
   <!-- footer part start -->
-  <footer>
-
+  <footer class="container text-center pt-5">
+    <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
   </footer>
 
 
